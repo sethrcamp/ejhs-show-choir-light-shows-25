@@ -707,15 +707,17 @@
                     <RACK TYPE="9">
                         <STEPS NB="2">
                             <STEP WAITTIME="25" FADETIME="0">
-                                <FIXTUREDATAS NB="3">
+                                <FIXTUREDATAS NB="4">
                                     <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4GH4//8/w38GIPiPAoACjDYgYYY9aNAGiBkAAAAA//8="/>
+                                    <FIXTUREDATA FIXTURE="1d290488-c4e8-45d2-b9bb-b9b5a6592733" DATA="eJxi4GD4jwAgNgMDA6MNwx4UaAMnGQAAAAD//w=="/>
                                     <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4D4QgQDT5H0Ry2IAF9qBBGyBmGNJSAAAAAP//"/>
                                     <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGf4zwAE/8EAzGa0AQkw7EGDNkDMAAAAAP//"/>
                                 </FIXTUREDATAS>
                             </STEP>
                             <STEP WAITTIME="25" FADETIME="0">
-                                <FIXTUREDATAS NB="3">
+                                <FIXTUREDATAS NB="4">
                                     <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxUw7ERACAIwMDYuxGM7moQbMlfuKhI066Ak0RFPbb8MwAAAP//"/>
+                                    <FIXTUREDATA FIXTURE="1d290488-c4e8-45d2-b9bb-b9b5a6592733" DATA="eJxi4GD4D4EgACIZGBgYbRhAcA8QopMMAAAAAP//"/>
                                     <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4D4T/gJBo8v9/BgYGDhsG67/Wf/cwoEIbIGYY0lIAAAAA//8="/>
                                     <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGf4z/CP4d9/MACyGRgYbRis/1r/3cOACm2AmAEAAAD//w=="/>
                                 </FIXTUREDATAS>
