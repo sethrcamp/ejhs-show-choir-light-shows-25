@@ -744,7 +744,7 @@
                 <RACKS/>
             </SCENE>
         </BANK>
-        <BANK DASUID="93c373db-cdeb-4f78-b682-386794ebde27" NAME="WITCHES" COLOR="#ff855fa8" COLLAPSED="0" PAUSED="0" HIDDEN="0" NBSCENE="25">
+        <BANK DASUID="93c373db-cdeb-4f78-b682-386794ebde27" NAME="WITCHES" COLOR="#ff855fa8" COLLAPSED="0" PAUSED="0" HIDDEN="0" NBSCENE="35">
             <SCENE DASUID="b66ac4ed-e8cf-488e-8539-768db0476af1" NAME="1 (2 3 4)" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="37" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
                 <FIXTUREDATAS NB="18">
                     <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGf4D4IQwDCLgYGB0YYBBPegQYsrexgYAAAAAP//"/>
@@ -20941,21 +20941,1388 @@
                     </RACK>
                 </RACKS>
             </SCENE>
-            <SCENE DASUID="5a5b6730-e6fe-4fc6-893a-1cbea38cad8e" NAME="witch (2)" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="1" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+            <SCENE DASUID="5a5b6730-e6fe-4fc6-893a-1cbea38cad8e" NAME="witch" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
                 <FIXTUREDATAS NB="0"/>
                 <RACKS>
                     <RACK EXPAND_RACK="1" TYPE="8">
-                        <EFFECT TYPE="5" ID="3" DURATION="4000">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
                             <PARAMS NB="5">
                                 <PARAM TYPE="0" ID="1" VAL="1"/>
-                                <PARAM TYPE="1" ID="2" VAL="1.142"/>
-                                <PARAM TYPE="1" ID="3" VAL="0"/>
-                                <PARAM TYPE="1" ID="4" VAL="0.428"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
                                 <PARAM TYPE="1" ID="5" VAL="0"/>
                             </PARAMS>
                         </EFFECT>
                         <PRESETS>
-                            <PRESET SSLFIXTURE="be719e50-706f-11eb-ad53-bd89a8c56348-2d0a8e3e" SSLCHANNEL="0" SSLPRESET="0" MIN="0" MAX="1">
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.315" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="0.03" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.465" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="0.09" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="42">
+                            <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1" IDSELECTION="4"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2" IDSELECTION="5"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3" IDSELECTION="6"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4" IDSELECTION="7"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5" IDSELECTION="8"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6" IDSELECTION="9"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7" IDSELECTION="10"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="11"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="12"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0" IDSELECTION="13"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1" IDSELECTION="14"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2" IDSELECTION="15"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3" IDSELECTION="16"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4" IDSELECTION="17"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5" IDSELECTION="18"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6" IDSELECTION="19"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7" IDSELECTION="20"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="21"/>
+                            <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0" IDSELECTION="22"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="23"/>
+                            <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0" IDSELECTION="24"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7" IDSELECTION="25"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6" IDSELECTION="26"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5" IDSELECTION="27"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4" IDSELECTION="28"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3" IDSELECTION="29"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2" IDSELECTION="30"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1" IDSELECTION="31"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0" IDSELECTION="32"/>
+                            <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0" IDSELECTION="33"/>
+                            <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0" IDSELECTION="34"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7" IDSELECTION="35"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6" IDSELECTION="36"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5" IDSELECTION="37"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4" IDSELECTION="38"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3" IDSELECTION="39"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2" IDSELECTION="40"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1" IDSELECTION="41"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0" IDSELECTION="42"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="dc3abc67-4b76-439d-9664-a12350b2a940" NAME="witch" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="0"/>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.135" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="0.06" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="40">
+                            <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1" IDSELECTION="2"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2" IDSELECTION="3"/>
+                            <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3" IDSELECTION="4"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4" IDSELECTION="5"/>
+                            <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5" IDSELECTION="6"/>
+                            <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6" IDSELECTION="7"/>
+                            <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7" IDSELECTION="8"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0" IDSELECTION="9"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1" IDSELECTION="10"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2" IDSELECTION="11"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3" IDSELECTION="12"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4" IDSELECTION="13"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5" IDSELECTION="14"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6" IDSELECTION="15"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7" IDSELECTION="16"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0" IDSELECTION="17"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1" IDSELECTION="18"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2" IDSELECTION="19"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3" IDSELECTION="20"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4" IDSELECTION="21"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5" IDSELECTION="22"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6" IDSELECTION="23"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7" IDSELECTION="24"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0" IDSELECTION="25"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1" IDSELECTION="26"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2" IDSELECTION="27"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3" IDSELECTION="28"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4" IDSELECTION="29"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5" IDSELECTION="30"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6" IDSELECTION="31"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7" IDSELECTION="32"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="3181a6e9-dc9f-42b7-ba5f-88448af94b34" NAME="witch" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="0"/>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.315" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="0.03" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.465" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="0.09" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="42">
+                            <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1" IDSELECTION="4"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2" IDSELECTION="5"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3" IDSELECTION="6"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4" IDSELECTION="7"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5" IDSELECTION="8"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6" IDSELECTION="9"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7" IDSELECTION="10"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="11"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="12"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0" IDSELECTION="13"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1" IDSELECTION="14"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2" IDSELECTION="15"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3" IDSELECTION="16"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4" IDSELECTION="17"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5" IDSELECTION="18"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6" IDSELECTION="19"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7" IDSELECTION="20"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="21"/>
+                            <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0" IDSELECTION="22"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="23"/>
+                            <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0" IDSELECTION="24"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7" IDSELECTION="25"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6" IDSELECTION="26"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5" IDSELECTION="27"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4" IDSELECTION="28"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3" IDSELECTION="29"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2" IDSELECTION="30"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1" IDSELECTION="31"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0" IDSELECTION="32"/>
+                            <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0" IDSELECTION="33"/>
+                            <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0" IDSELECTION="34"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7" IDSELECTION="35"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6" IDSELECTION="36"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5" IDSELECTION="37"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4" IDSELECTION="38"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3" IDSELECTION="39"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2" IDSELECTION="40"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1" IDSELECTION="41"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0" IDSELECTION="42"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="882b940d-76b4-4406-ac0c-6301308bad5a" NAME="witch" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="0"/>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.135" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="0.06" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="40">
+                            <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1" IDSELECTION="2"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2" IDSELECTION="3"/>
+                            <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3" IDSELECTION="4"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4" IDSELECTION="5"/>
+                            <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5" IDSELECTION="6"/>
+                            <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6" IDSELECTION="7"/>
+                            <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7" IDSELECTION="8"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0" IDSELECTION="9"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1" IDSELECTION="10"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2" IDSELECTION="11"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3" IDSELECTION="12"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4" IDSELECTION="13"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5" IDSELECTION="14"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6" IDSELECTION="15"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7" IDSELECTION="16"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0" IDSELECTION="17"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1" IDSELECTION="18"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2" IDSELECTION="19"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3" IDSELECTION="20"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4" IDSELECTION="21"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5" IDSELECTION="22"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6" IDSELECTION="23"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7" IDSELECTION="24"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0" IDSELECTION="25"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1" IDSELECTION="26"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2" IDSELECTION="27"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3" IDSELECTION="28"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4" IDSELECTION="29"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5" IDSELECTION="30"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6" IDSELECTION="31"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7" IDSELECTION="32"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="f82340a6-b295-4758-9c14-474db49004b6" NAME="witch" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="0"/>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.315" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="0.03" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.465" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="0.09" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="42">
+                            <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1" IDSELECTION="4"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2" IDSELECTION="5"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3" IDSELECTION="6"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4" IDSELECTION="7"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5" IDSELECTION="8"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6" IDSELECTION="9"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7" IDSELECTION="10"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="11"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="12"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0" IDSELECTION="13"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1" IDSELECTION="14"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2" IDSELECTION="15"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3" IDSELECTION="16"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4" IDSELECTION="17"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5" IDSELECTION="18"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6" IDSELECTION="19"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7" IDSELECTION="20"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="21"/>
+                            <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0" IDSELECTION="22"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="23"/>
+                            <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0" IDSELECTION="24"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7" IDSELECTION="25"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6" IDSELECTION="26"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5" IDSELECTION="27"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4" IDSELECTION="28"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3" IDSELECTION="29"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2" IDSELECTION="30"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1" IDSELECTION="31"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0" IDSELECTION="32"/>
+                            <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0" IDSELECTION="33"/>
+                            <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0" IDSELECTION="34"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7" IDSELECTION="35"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6" IDSELECTION="36"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5" IDSELECTION="37"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4" IDSELECTION="38"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3" IDSELECTION="39"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2" IDSELECTION="40"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1" IDSELECTION="41"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0" IDSELECTION="42"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="6148dbaa-11dc-42ae-937b-60abb37f759b" NAME="witch" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="0"/>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.135" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="0.06" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="40">
+                            <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1" IDSELECTION="2"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2" IDSELECTION="3"/>
+                            <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3" IDSELECTION="4"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4" IDSELECTION="5"/>
+                            <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5" IDSELECTION="6"/>
+                            <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6" IDSELECTION="7"/>
+                            <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7" IDSELECTION="8"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0" IDSELECTION="9"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1" IDSELECTION="10"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2" IDSELECTION="11"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3" IDSELECTION="12"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4" IDSELECTION="13"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5" IDSELECTION="14"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6" IDSELECTION="15"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7" IDSELECTION="16"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0" IDSELECTION="17"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1" IDSELECTION="18"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2" IDSELECTION="19"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3" IDSELECTION="20"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4" IDSELECTION="21"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5" IDSELECTION="22"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6" IDSELECTION="23"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7" IDSELECTION="24"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0" IDSELECTION="25"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1" IDSELECTION="26"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2" IDSELECTION="27"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3" IDSELECTION="28"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4" IDSELECTION="29"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5" IDSELECTION="30"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6" IDSELECTION="31"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7" IDSELECTION="32"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="8cdf879e-2d88-49b5-bd1d-d34324676b61" NAME="which" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="18">
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.465" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="0.075" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="1" MAX="1">
                                 <BEAMS>
                                     <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
                                     <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
@@ -21093,6 +22460,614 @@
                     </RACK>
                 </RACKS>
             </SCENE>
+            <SCENE DASUID="63907013-91f2-450c-99e3-87b729ecd483" NAME="witch?" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="18">
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.12" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="0.015" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.135" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="0.06" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="18">
+                            <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0" IDSELECTION="9"/>
+                            <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0" IDSELECTION="10"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="4e60845c-d557-428f-b030-68bba4de9fae" NAME="witch" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="18">
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.465" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="0.075" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2"/>
+                                    <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4"/>
+                                    <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0"/>
+                                    <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2"/>
+                                    <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3"/>
+                                    <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6"/>
+                                    <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5"/>
+                                    <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2"/>
+                                    <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="64">
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="1" IDSELECTION="2"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="2" IDSELECTION="3"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="1" IDSELECTION="5"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="2" IDSELECTION="6"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="1" IDSELECTION="8"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="2" IDSELECTION="9"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="3" IDSELECTION="10"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="4" IDSELECTION="11"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="5" IDSELECTION="12"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="6" IDSELECTION="13"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="0" IDSELECTION="14"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="1" IDSELECTION="15"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="2" IDSELECTION="16"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="3" IDSELECTION="17"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="4" IDSELECTION="18"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="5" IDSELECTION="19"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="6" IDSELECTION="20"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="0" IDSELECTION="21"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="1" IDSELECTION="22"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="2" IDSELECTION="23"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="3" IDSELECTION="24"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="4" IDSELECTION="25"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="5" IDSELECTION="26"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="6" IDSELECTION="27"/>
+                            <BEAM FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" BEAMID="7" IDSELECTION="28"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="0" IDSELECTION="29"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="1" IDSELECTION="30"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="2" IDSELECTION="31"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="3" IDSELECTION="32"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="4" IDSELECTION="33"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="5" IDSELECTION="34"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="6" IDSELECTION="35"/>
+                            <BEAM FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" BEAMID="7" IDSELECTION="36"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="0" IDSELECTION="37"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="1" IDSELECTION="38"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="2" IDSELECTION="39"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="3" IDSELECTION="40"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="4" IDSELECTION="41"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="5" IDSELECTION="42"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="6" IDSELECTION="43"/>
+                            <BEAM FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" BEAMID="7" IDSELECTION="44"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="0" IDSELECTION="45"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="1" IDSELECTION="46"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="2" IDSELECTION="47"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="3" IDSELECTION="48"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="4" IDSELECTION="49"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="5" IDSELECTION="50"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="6" IDSELECTION="51"/>
+                            <BEAM FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" BEAMID="7" IDSELECTION="52"/>
+                            <BEAM FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" BEAMID="7" IDSELECTION="53"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="3" IDSELECTION="54"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="4" IDSELECTION="55"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="5" IDSELECTION="56"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="6" IDSELECTION="57"/>
+                            <BEAM FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" BEAMID="7" IDSELECTION="58"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="3" IDSELECTION="59"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="4" IDSELECTION="60"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="5" IDSELECTION="61"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="6" IDSELECTION="62"/>
+                            <BEAM FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" BEAMID="7" IDSELECTION="63"/>
+                            <BEAM FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" BEAMID="7" IDSELECTION="64"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="b2515b38-dcf5-448f-bb0d-c72d47c1ab65" NAME="witch" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="1" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="0" JUMP_MODE="-1" RELEASE_MODE="0" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="18">
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxgiAoYGBgYbRhAcA8cItgMAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGf4D4IwwMDAwGjDAIJ74BDBZgAAAAD//w=="/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="7" DURATION="5000">
+                            <PARAMS NB="5">
+                                <PARAM TYPE="0" ID="1" VAL="1"/>
+                                <PARAM TYPE="1" ID="2" VAL="1.104"/>
+                                <PARAM TYPE="1" ID="3" VAL="0.257"/>
+                                <PARAM TYPE="1" ID="4" VAL="-0.106"/>
+                                <PARAM TYPE="1" ID="5" VAL="0"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.12" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="0.015" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="65" MIN="0.135" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="66" MIN="1" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="67" MIN="0.06" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="18">
+                            <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0" IDSELECTION="9"/>
+                            <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0" IDSELECTION="10"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="02d03193-9f25-4a3b-8696-f0c741ebf9e9" NAME="are (back)" COLOR="#ff855fa8" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="9" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="26">
+                    <FIXTUREDATA FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" DATA="eJxikGL4z1DGIEoK+f8/AwMDh3mxboENAwLYMOwBQqu0PQwMQ1oKAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" DATA="eJxikGL4z1DGIEoK+f8/AwMDh3mxboENAwLYMOwBQqu0PQwMQ1oKAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4GE48/8/gyLDfwZ+BiD4DwdADqOBqg2D9joGOLBh2AOEVml7GBgAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" DATA="eJxikGL4z1DGIEoK+f8/AwMDh3mxboENAwLYMOwBQqu0PQwMQ1oKAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" DATA="eJxikGL4z1DGIEoK+f8/AwMDh3mxboENAwLYMOwBQqu0PQwMQ1oKAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" DATA="eJxikGL4z1DGIEoK+f8/AwMDh3mxboENAwLYMOwBQqu0PQwMQ1oKAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4GE48/8/gyLDfwZ+BiD4DwdADqOBqg2D9joGOLBh2AOEVml7GBgAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4GE48/8/gyLDfwZ+BiD4DwdADqOBqg2D9joGOLBh2AOEVml7GBgAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4GE48/8/gyLDfwZ+BiD4DwdADqOBqg2D9joGOLBh2AOEVml7GBgAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4GE48/8/gyLDfwZ+BiD4DwdADqOBqg2D9joGOLBh2AOEVml7GBgAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4z1DGIEoK+f8/AwMDh3mxboENAwLYMOwBQqu0PQwMQ1oKAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4GE48/8/gyLDfwZ+BiD4DwdADqOBqg2D9joGOLBh2AOEVml7GBgAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" DATA="eJxikGL4z1DGIEoK+f8/AwMDh3mxboENAwLYMOwBQqu0PQwMQ1oKAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4GE48/8/gyLDfwZ+BiD4DwdADqOBqg2D9joGOLBh2AOEVml7GBgAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" DATA="eJxikGL4z1DGIEoK+f8/AwMDh3mxboENAwLYMOwBQqu0PQwMQ1oKAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4GE48/8/gyLDfwZ+BiD4DwdADqOBqg2D9joGOLBh2AOEVml7GBgAAAAA//8="/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGeQY/jPwPwfDBjOMDAwMOrvtGFQUmGAAxuGPUBolbaHgQEAAAD//w=="/>
+                </FIXTUREDATAS>
+                <RACKS/>
+            </SCENE>
         </BANK>
         <BANK DASUID="fde37953-9ded-4e20-a251-0e5b518eb6ab" NAME="SPELL" COLOR="#ffffcf08" COLLAPSED="0" PAUSED="0" HIDDEN="0" NBSCENE="1">
             <SCENE DASUID="62efb9f1-dc8a-47f4-ae23-19bf24843af0" NAME="New Scene" COLOR="#ffffcf08" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
@@ -21118,7 +23093,9 @@
                 <RACKS/>
             </SCENE>
         </BANK>
-        <DAS_SELECTIONS SELECTED_LIVE_BANK="0"/>
+        <DAS_SELECTIONS SELECTED_LIVE_BANK="0">
+            <SELECTED_LIVE_SCENES DASUID="02d03193-9f25-4a3b-8696-f0c741ebf9e9"/>
+        </DAS_SELECTIONS>
     </SCENES>
     <SHORTCUTS>
         <SHORTCUT TYPE="0">
@@ -21154,6 +23131,11 @@
         <SHORTCUT TYPE="0">
             <EVENT DATA="p"/>
             <ACTION TYPE="109" TARGET="58c22399-e768-4edc-b974-0c1d4161137b" TARGETINDEX="2018"/>
+            <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="0" INV="0" XY="0"/>
+        </SHORTCUT>
+        <SHORTCUT TYPE="0">
+            <EVENT DATA="p"/>
+            <ACTION TYPE="109" TARGET="6e2814d8-0396-4363-a634-8784ec4f7b10" TARGETINDEX="2023"/>
             <SETTINGS SMODE="0" CMODE="0" TMODE="0" MIN="0" MAX="1" INC="0.001" LOOP="0" FLASH="0" INV="0" XY="0"/>
         </SHORTCUT>
     </SHORTCUTS>
