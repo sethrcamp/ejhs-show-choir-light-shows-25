@@ -1388,7 +1388,7 @@
                 </RACKS>
             </SCENE>
         </BANK>
-        <BANK DASUID="0de3a69c-4b14-46d9-a1ad-cb225cef6565" NAME="super scene blocks" COLOR="#ffffffff" COLLAPSED="0" PAUSED="0" HIDDEN="0" NBSCENE="20">
+        <BANK DASUID="0de3a69c-4b14-46d9-a1ad-cb225cef6565" NAME="super scene blocks" COLOR="#ffffffff" COLLAPSED="0" PAUSED="0" HIDDEN="0" NBSCENE="26">
             <SCENE DASUID="eb5a9b1c-0f12-4d83-a630-b27db4805125" NAME="Down A" COLOR="#ffffffff" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
                 <FIXTUREDATAS NB="26">
                     <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
@@ -2910,6 +2910,430 @@
                             <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="2"/>
                             <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="3"/>
                             <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="4"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="c4e5cc80-93e8-4ee3-a0a2-bc6d69c2a0f7" NAME="A -&gt; Bottom \/ B" COLOR="#ffffffff" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="26">
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="13" DURATION="9000">
+                            <PARAMS NB="2">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="4">
+                                        <POINT X="0" Y="0"/>
+                                        <POINT X="4.74975e-08" Y="1"/>
+                                        <POINT X="0.173229" Y="0"/>
+                                        <POINT X="1" Y="0"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.047"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="4" MIN="0" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="3">
+                            <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="3"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="98de654f-f528-4da8-9ad1-169bfdcb92c2" NAME="F &lt;- Top \/ B" COLOR="#ffffffff" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="26">
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="13" DURATION="9000">
+                            <PARAMS NB="2">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="4">
+                                        <POINT X="0" Y="0"/>
+                                        <POINT X="4.74975e-08" Y="1"/>
+                                        <POINT X="0.173229" Y="0"/>
+                                        <POINT X="1" Y="0"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.047"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="4" MIN="0" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="8">
+                            <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="8"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="6609cc50-a12d-459d-becb-c3a2b672eb5e" NAME="A -&gt; Double \/ CE" COLOR="#ffffffff" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="26">
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="13" DURATION="9000">
+                            <PARAMS NB="2">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="4">
+                                        <POINT X="0" Y="0"/>
+                                        <POINT X="4.74975e-08" Y="1"/>
+                                        <POINT X="0.361753" Y="0"/>
+                                        <POINT X="1" Y="0"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.047"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="4" MIN="0" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="12">
+                            <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="9"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="10"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="11"/>
+                            <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0" IDSELECTION="12"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="cf6367a9-73ce-4f99-ac6e-37a7bcc5b526" NAME="D -&gt; Bottom" COLOR="#ffffffff" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="26">
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="13" DURATION="9000">
+                            <PARAMS NB="2">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="4">
+                                        <POINT X="0" Y="0"/>
+                                        <POINT X="4.74975e-08" Y="1"/>
+                                        <POINT X="0.16913" Y="0"/>
+                                        <POINT X="1" Y="0"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.047"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="4" MIN="0" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0"/>
+                                    <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                    <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="12">
+                            <BEAM FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" BEAMID="0" IDSELECTION="8"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="9"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="10"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="11"/>
+                            <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0" IDSELECTION="12"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="7d8f6e67-25f3-4217-8f93-0094686a2ab9" NAME="F &lt;- Bottom \/ D" COLOR="#ffffffff" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="26">
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="13" DURATION="9000">
+                            <PARAMS NB="2">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="4">
+                                        <POINT X="0" Y="0"/>
+                                        <POINT X="4.74975e-08" Y="1"/>
+                                        <POINT X="0.173229" Y="0"/>
+                                        <POINT X="1" Y="0"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.047"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="4" MIN="0" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0"/>
+                                    <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0"/>
+                                    <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0"/>
+                                    <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="4">
+                            <BEAM FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" BEAMID="0" IDSELECTION="4"/>
+                        </BEAMS>
+                    </RACK>
+                </RACKS>
+            </SCENE>
+            <SCENE DASUID="e1f3db91-5dec-45a3-96fe-c7c78a0d3eca" NAME="B -&gt; Top \/" COLOR="#ffffffff" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+                <FIXTUREDATAS NB="26">
+                    <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="4869acab-4381-4d6c-8409-b97e575756d8" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="e88a0517-2c71-4c4c-b7b5-7f743c77e07a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="34fbda12-42c3-4ff5-9b1e-a98d298b1e1d" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6be773c2-0b80-4785-91e0-91ba192e41ea" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="c2a29fff-13d0-4ebd-8379-fe4ffa99e91b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="66c977db-3e4a-4ea1-a685-720ee5e8098f" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="84af4297-8521-4412-9dba-e232962a8df7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7a7cc2d7-1acb-430b-a6e8-ccc50983cd90" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="7c72e81b-7d36-4870-84e6-404ed934acb5" DATA="eJxiYGdgYmBg+A8DQDajggQDgw0DAtgw7IFCBgAAAAD//w=="/>
+                    <FIXTUREDATA FIXTURE="5827e84f-b10e-4521-a37d-f8404308efa9" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="22267844-e427-4f08-b3a7-c72e0a9319a4" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="489f2e4a-92b0-45b5-97bb-0a9347c43f4b" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="c7bcb526-6f0c-4a53-b00c-1b49490265e7" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="ac0b70bc-a8b3-4bbf-8bb7-c337da9b6e0a" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="eae04bfc-07db-4365-b037-e08176dec010" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="f1405b11-fe2d-4a06-9be4-dcb16d3bfea2" DATA="eJxikGL4z8DEwEAK+f8/kORQkGBgsGFAABuGPVDIMKSlAAAAAP//"/>
+                    <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
+                </FIXTUREDATAS>
+                <RACKS>
+                    <RACK EXPAND_RACK="1" TYPE="8">
+                        <EFFECT TYPE="5" ID="13" DURATION="9000">
+                            <PARAMS NB="2">
+                                <PARAM TYPE="5" ID="1">
+                                    <POINTS NB="4">
+                                        <POINT X="0" Y="0"/>
+                                        <POINT X="4.74975e-08" Y="1"/>
+                                        <POINT X="0.173229" Y="0"/>
+                                        <POINT X="1" Y="0"/>
+                                    </POINTS>
+                                </PARAM>
+                                <PARAM TYPE="1" ID="2" VAL="0.047"/>
+                            </PARAMS>
+                        </EFFECT>
+                        <PRESETS>
+                            <PRESET SSLFIXTURE="" SSLCHANNEL="-1" SSLPRESET="4" MIN="0" MAX="1">
+                                <BEAMS>
+                                    <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0"/>
+                                    <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0"/>
+                                    <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0"/>
+                                    <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0"/>
+                                    <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0"/>
+                                    <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0"/>
+                                    <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0"/>
+                                    <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0"/>
+                                </BEAMS>
+                            </PRESET>
+                        </PRESETS>
+                        <BEAMS NB="8">
+                            <BEAM FIXTURE="3cf4265d-de5e-49a4-94c2-decfb638f09b" BEAMID="0" IDSELECTION="1"/>
+                            <BEAM FIXTURE="e7f6fc89-fb68-495a-b27a-107ca956ac8f" BEAMID="0" IDSELECTION="2"/>
+                            <BEAM FIXTURE="5c69f558-ef5e-4b69-b1f4-8f0bebabaff6" BEAMID="0" IDSELECTION="3"/>
+                            <BEAM FIXTURE="9ca1a2d3-4879-43e4-8c2b-83188d66d152" BEAMID="0" IDSELECTION="4"/>
+                            <BEAM FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" BEAMID="0" IDSELECTION="5"/>
+                            <BEAM FIXTURE="5387f701-1533-4bb9-a691-16a86b4ca21a" BEAMID="0" IDSELECTION="6"/>
+                            <BEAM FIXTURE="6cf7d252-8ed8-46d4-aba9-039b4c46a58d" BEAMID="0" IDSELECTION="7"/>
+                            <BEAM FIXTURE="53b09df3-2aae-4462-bc10-68ad9a7640f5" BEAMID="0" IDSELECTION="8"/>
                         </BEAMS>
                     </RACK>
                 </RACKS>
@@ -23684,7 +24108,7 @@
             </SCENE>
         </BANK>
         <BANK DASUID="c41c87e8-3e62-4b94-ac42-4bb106e2f985" NAME="CIRCUIT" COLOR="#ff077cc1" COLLAPSED="0" PAUSED="0" HIDDEN="0" NBSCENE="1">
-            <SCENE DASUID="f68f88af-e56c-484a-b147-abf086bf7dd4" NAME="Circuit Animation" COLOR="#ff077cc1" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
+            <SCENE DASUID="f68f88af-e56c-484a-b147-abf086bf7dd4" NAME="Circuit Animation" COLOR="#ff077cc1" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.4" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
                 <FIXTUREDATAS NB="26">
                     <FIXTUREDATA FIXTURE="fee13642-5bb0-49b1-9373-d69e3667a201" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
                     <FIXTUREDATA FIXTURE="112b2c0c-6347-4047-bafe-5f05c2ab52cb" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
@@ -23714,44 +24138,156 @@
                     <FIXTUREDATA FIXTURE="2a096686-b4d3-428e-a119-573c7426182a" DATA="eJxi4PkPBAxMDAwM/xlABBwAOYwKEgwMNgwIYMOwBwoZAAAAAP//"/>
                 </FIXTUREDATAS>
                 <RACKS>
-                    <RACK TYPE="1" DURATION="494" DISPLAY_MODE="0" GRID_BPM="120" GRID_OFFSET="0">
+                    <RACK TYPE="1" DURATION="881" DISPLAY_MODE="0" GRID_BPM="120" GRID_OFFSET="0">
                         <TIMELINES>
-                            <TIMELINE DASUID="3b79d89d-e23e-402d-9cd5-1a2a68731a15" NAME="0" INDEX="0" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="4fd9b723-a614-4fc0-8a62-ad57a3bf673c" NAME="0" INDEX="0" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
-                                    <BLOCK TYPE="1" DASUID="4201d7b6-161c-4497-8490-7abf2795fe04" NAME="C &lt;- Bottom" START="10736" END="19736" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="9e7c4885-e47d-4ce8-982f-b5d4a5c47a2e">
+                                    <BLOCK TYPE="1" DASUID="da849758-da02-45ab-ac8c-8eb5478d70aa" NAME="Up B" START="26620" END="31620" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="26286fc0-0ddc-49ae-b414-25c6276f0814">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="6353a7c9-fbf9-4fd3-9911-29bbf74147de" NAME="1" INDEX="1" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="a731cc59-71e4-4514-b726-54d1140b00bf" NAME="1" INDEX="1" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="2ab5df78-7c75-4bd2-81d5-05833b25f7d2" NAME="Down D" START="27712" END="32712" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="88511a37-936c-4e79-89d1-6ea27f0e3f3d">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="3aced550-cf88-412c-9216-2288838c9ac1" NAME="2" INDEX="2" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="b211b3d8-3b3d-46d2-b486-e839812c111f" NAME="F &lt;- Bottom \/ D" START="26204" END="35204" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="7d8f6e67-25f3-4217-8f93-0094686a2ab9">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="96147ae2-4d15-4073-a42c-054fc7704841" NAME="3" INDEX="3" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="1acc44c5-f89c-4f12-91a3-c625d1539451" NAME="Up F" START="24488" END="29488" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="8c0afce4-5d42-44ac-9ad1-1d573abe8af5">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="91aab10c-8598-43e0-b15a-156e3a2740ee" NAME="4" INDEX="4" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="1bc3c0b8-f2c8-4144-81e5-9f7889ec1986" NAME="B &lt;- Top \/ A" START="24592" END="33592" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="bd0a5be3-a38a-414a-8f19-ab2c967d4347">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="54206bd0-e2fe-4661-bf47-9e23e8bd84cc" NAME="5" INDEX="5" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="9f63a072-47cb-4122-9ab7-59b9015256d9" NAME="Up B" START="22928" END="27928" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="26286fc0-0ddc-49ae-b414-25c6276f0814">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="7b15bc14-75f4-44c0-9bce-7f6b718d7174" NAME="6" INDEX="6" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="81b376b6-9d65-4388-9725-28a370f3c35b" NAME="Down E" START="23760" END="28760" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="99dc3964-9091-4527-8aff-c744929ebf7e">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="25a09817-6479-4433-98ee-979c9100d945" NAME="7" INDEX="7" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="c96d9af0-7644-4c45-abf0-1c06b3ce62aa" NAME="Down C" START="21940" END="26940" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="2bbeb696-3ca5-42c6-a25f-707928b6912b">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="d531ee9c-5c0b-4967-9fc5-b13ef0e1c47d" NAME="8" INDEX="8" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="c478414b-d7fe-48db-8598-9fef0a5476d2" NAME="A -&gt; Double \/ CE" START="18930" END="27930" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="6609cc50-a12d-459d-becb-c3a2b672eb5e">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="abc22b6d-db40-425d-82e3-85ba501e5c28" NAME="9" INDEX="9" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="0136d9c0-6741-46b2-921f-976bdc99bca7" NAME="Up D" START="17402" END="22402" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="3baeff76-5c2b-45ba-9814-4a7f6289ca4e">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="42f5caef-90d6-469b-a7d7-58faa4f4a847" NAME="10" INDEX="10" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="9617523e-650f-4840-be07-3f7b41ea82c3" NAME="F &lt;- Top \/ B" START="14396" END="23396" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="98de654f-f528-4da8-9ad1-169bfdcb92c2">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="178a350f-7d5a-42f0-8e72-dfb7fbb76a9a" NAME="11" INDEX="11" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="2796264c-e1a7-45d7-bf0f-55778975ac2e" NAME="Down B" START="17190" END="22190" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="23b5296c-cd6f-4c58-afe6-2e52f7c09c19">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="e4e2d3b8-e3cc-4bdf-8538-c369782e8613" NAME="12" INDEX="12" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="33359ef7-4059-449b-a93d-ea8bf00a3b61" NAME="A -&gt; Bottom \/ B" START="16082" END="25082" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="c4e5cc80-93e8-4ee3-a0a2-bc6d69c2a0f7">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="176ec8e5-25f7-49a4-a267-11c946d94ff7" NAME="13" INDEX="13" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="4148fede-384f-4786-a593-99b41e77f625" NAME="Up A" START="14304" END="19304" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="b8c3208c-b307-49b1-949f-da625cddd060">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="7d0cea43-855c-435c-b99c-a91106101794" NAME="14" INDEX="14" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="6f6dbe55-8349-4b55-928a-e78ce25499d0" NAME="C -&gt; Bottom" START="15790" END="24790" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="b1cfdaf0-8307-4a7c-a6dc-b0c46480f4a3">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="3b79d89d-e23e-402d-9cd5-1a2a68731a15" NAME="15" INDEX="15" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="f7b90c0b-2a40-4771-be00-ae95868c90dd" NAME="Up C" START="12149" END="17149" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="a241e276-5f06-4d52-9806-1c27c25c4040">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="e1759154-3fb9-464f-ae67-51cf9e625ff3" NAME="16" INDEX="16" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="e8a6f0b6-e1aa-434d-8568-f95986f513ad" NAME="C &lt;- Bottom" START="10736" END="19736" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="9e7c4885-e47d-4ce8-982f-b5d4a5c47a2e">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="6353a7c9-fbf9-4fd3-9911-29bbf74147de" NAME="17" INDEX="17" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="f171a38c-edcf-470f-bc15-49eff47bc838" NAME="Up C" START="6839" END="11839" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="a241e276-5f06-4d52-9806-1c27c25c4040">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="3b2a5e41-771e-4207-b0ea-21ffcccbe0d2" NAME="2" INDEX="2" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="3b2a5e41-771e-4207-b0ea-21ffcccbe0d2" NAME="18" INDEX="18" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="c8bcadaf-1508-4ae1-9b5b-dd9cd5e1bead" NAME="-&gt; Top" START="9276" END="18276" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="61ef7dc6-4f01-4b27-a226-d49d15d8bac1">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="7f43e9fe-5fc1-4be3-8a80-f48e484383cb" NAME="3" INDEX="3" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="7f43e9fe-5fc1-4be3-8a80-f48e484383cb" NAME="19" INDEX="19" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="925c6b71-20af-4d3f-b68b-694efa782bd3" NAME="Down E" START="10815" END="15815" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="99dc3964-9091-4527-8aff-c744929ebf7e">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="69420882-7544-4a83-9a6f-25840dae5cea" NAME="4" INDEX="4" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="69420882-7544-4a83-9a6f-25840dae5cea" NAME="20" INDEX="20" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="3aa134b8-58ac-4c1c-ac8a-8f727b8c5b45" NAME="Down D" START="8774" END="13774" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="88511a37-936c-4e79-89d1-6ea27f0e3f3d">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="548b10db-b036-4cf2-be44-9fdf74414ec2" NAME="5" INDEX="5" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="548b10db-b036-4cf2-be44-9fdf74414ec2" NAME="21" INDEX="21" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="fa28a6b5-e037-4f1d-97f7-72a40f5bb14b" NAME="F &lt;- Top \/ D" START="6445" END="10075" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="770881d9-1f44-4348-ae31-c8c319429795">
                                         <DASTLSUBLINES DASTLNB="0"/>
@@ -23761,7 +24297,7 @@
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="b2447d1c-d655-4361-a6b3-0ffdd9388894" NAME="6" INDEX="6" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="b2447d1c-d655-4361-a6b3-0ffdd9388894" NAME="22" INDEX="22" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="89aae7c8-0bcb-4b33-baff-f680bedf8aac" NAME="B -&gt; Bottom \/ E" START="8809" END="10107" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="80a882a1-394c-4df0-8902-5bc2944f2a3b">
                                         <DASTLSUBLINES DASTLNB="0"/>
@@ -23771,21 +24307,21 @@
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="5ad6f25c-1d1a-47a3-afc2-82bd03fb46c5" NAME="7" INDEX="7" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="5ad6f25c-1d1a-47a3-afc2-82bd03fb46c5" NAME="23" INDEX="23" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="fccac7f3-461d-459c-97c5-fa59f06363d3" NAME="Up F" START="4536" END="9536" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="8c0afce4-5d42-44ac-9ad1-1d573abe8af5">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="44c17969-d788-4b4c-a2ca-0fe16290f2c1" NAME="8" INDEX="8" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="44c17969-d788-4b4c-a2ca-0fe16290f2c1" NAME="24" INDEX="24" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="ec63f9f7-cfcf-4d67-8e45-322f744a0dcb" NAME="C -&gt; Bottom" START="4608" END="13608" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="b1cfdaf0-8307-4a7c-a6dc-b0c46480f4a3">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="89870374-f28d-49f0-b730-f81053612f7f" NAME="9" INDEX="9" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="89870374-f28d-49f0-b730-f81053612f7f" NAME="25" INDEX="25" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="02436d06-9b2f-4cac-8f5c-44fffc035687" NAME="Up C" START="1205" END="5964" POSITION="241" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="a241e276-5f06-4d52-9806-1c27c25c4040">
                                         <DASTLSUBLINES DASTLNB="0"/>
@@ -23795,17 +24331,17 @@
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="4b341197-822d-47d8-bda6-81a6926b778a" NAME="10" INDEX="10" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="4b341197-822d-47d8-bda6-81a6926b778a" NAME="26" INDEX="26" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS/>
                             </TIMELINE>
-                            <TIMELINE DASUID="6858c268-0298-4449-aecd-872acb9818ea" NAME="11" INDEX="11" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="6858c268-0298-4449-aecd-872acb9818ea" NAME="27" INDEX="27" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="8d1105e0-5a59-41fa-aaaa-88848e960e10" NAME="Up B" START="572" END="5572" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="26286fc0-0ddc-49ae-b414-25c6276f0814">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="9709b6ac-ca98-4754-9596-49a03a24cd7a" NAME="12" INDEX="12" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="9709b6ac-ca98-4754-9596-49a03a24cd7a" NAME="28" INDEX="28" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="8811706c-79be-4180-868e-9f2a0ce29427" NAME="B &lt;- Top \/ A" START="2268" END="5155" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="bd0a5be3-a38a-414a-8f19-ab2c967d4347">
                                         <DASTLSUBLINES DASTLNB="0"/>
@@ -23815,14 +24351,14 @@
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="5367414f-f73a-47f2-b92d-fded69f4a93f" NAME="13" INDEX="13" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="5367414f-f73a-47f2-b92d-fded69f4a93f" NAME="29" INDEX="29" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="194d7128-5f51-4e8d-ba40-2c8cc563bb53" NAME="Down A" START="4107" END="9107" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="eb5a9b1c-0f12-4d83-a630-b27db4805125">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="34bc3c48-fa89-4863-8a1b-3dde7d13cc75" NAME="14" INDEX="14" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="34bc3c48-fa89-4863-8a1b-3dde7d13cc75" NAME="30" INDEX="30" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
                                     <BLOCK TYPE="1" DASUID="814a44fd-a28f-407b-8831-4f0089997311" NAME="&lt;- Top" START="2983" END="5155" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="2783724c-cc67-4f67-86bd-9760da950fde">
                                         <DASTLSUBLINES DASTLNB="0"/>
@@ -23832,27 +24368,33 @@
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="293cee1e-7fd0-4939-b72d-029c7a66d978" NAME="15" INDEX="15" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
-                                <BLOCKS/>
-                            </TIMELINE>
-                            <TIMELINE DASUID="2c1b2f3b-56a5-4589-8a32-7309e4dcea86" NAME="16" INDEX="16" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="293cee1e-7fd0-4939-b72d-029c7a66d978" NAME="31" INDEX="31" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
-                                    <BLOCK TYPE="1" DASUID="cdf59c40-5f5e-4c8b-86ba-99e3d532a015" NAME="F &lt;- Top" START="11" END="6811" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="f304c58c-39b9-4552-9c63-25ecd0e30b3b">
+                                    <BLOCK TYPE="1" DASUID="cdf59c40-5f5e-4c8b-86ba-99e3d532a015" NAME="F &lt;- Top" START="0" END="6800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="f304c58c-39b9-4552-9c63-25ecd0e30b3b">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="4a240796-43da-476a-82e1-05ed99eb5152" NAME="17" INDEX="17" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="2c1b2f3b-56a5-4589-8a32-7309e4dcea86" NAME="32" INDEX="32" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
-                                    <BLOCK TYPE="1" DASUID="c381a801-97a9-46bb-84fa-fde0603c914a" NAME="Down D" START="2022" END="6822" POSITION="200" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="88511a37-936c-4e79-89d1-6ea27f0e3f3d">
+                                    <BLOCK TYPE="1" DASUID="c381a801-97a9-46bb-84fa-fde0603c914a" NAME="Down D" START="2000" END="6800" POSITION="200" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="88511a37-936c-4e79-89d1-6ea27f0e3f3d">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
-                            <TIMELINE DASUID="823d270b-6fc5-4f89-bd48-8bf35556d4d4" NAME="18" INDEX="18" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="f34aa346-6700-4dfa-a310-f8c58eab4583" NAME="33" INDEX="33" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS/>
                             </TIMELINE>
-                            <TIMELINE DASUID="1aa703a3-1bca-4e38-b143-a326fdff40e5" NAME="19" INDEX="19" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="4a240796-43da-476a-82e1-05ed99eb5152" NAME="34" INDEX="34" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS/>
+                            </TIMELINE>
+                            <TIMELINE DASUID="04bd9fbd-9a42-4ba0-a456-0df618fe05f6" NAME="35" INDEX="35" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS/>
+                            </TIMELINE>
+                            <TIMELINE DASUID="823d270b-6fc5-4f89-bd48-8bf35556d4d4" NAME="36" INDEX="36" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS/>
+                            </TIMELINE>
+                            <TIMELINE DASUID="1aa703a3-1bca-4e38-b143-a326fdff40e5" NAME="37" INDEX="37" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS/>
                             </TIMELINE>
                         </TIMELINES>
