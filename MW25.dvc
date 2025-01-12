@@ -1400,7 +1400,7 @@
                                 <PARAM TYPE="5" ID="1">
                                     <POINTS NB="3">
                                         <POINT X="0" Y="1"/>
-                                        <POINT X="0.528528" Y="0"/>
+                                        <POINT X="0.536724" Y="0"/>
                                         <POINT X="1" Y="0"/>
                                     </POINTS>
                                 </PARAM>
@@ -1580,16 +1580,16 @@
                 </FIXTUREDATAS>
                 <RACKS>
                     <RACK EXPAND_RACK="1" TYPE="8">
-                        <EFFECT TYPE="5" ID="13" DURATION="3400">
+                        <EFFECT TYPE="5" ID="13" DURATION="7800">
                             <PARAMS NB="2">
                                 <PARAM TYPE="5" ID="1">
                                     <POINTS NB="3">
                                         <POINT X="0" Y="1"/>
-                                        <POINT X="0.518281" Y="0"/>
+                                        <POINT X="0.253937" Y="0"/>
                                         <POINT X="1" Y="0"/>
                                     </POINTS>
                                 </PARAM>
-                                <PARAM TYPE="1" ID="2" VAL="0.072"/>
+                                <PARAM TYPE="1" ID="2" VAL="0.036"/>
                             </PARAMS>
                         </EFFECT>
                         <PRESETS>
@@ -1644,16 +1644,16 @@
                 </FIXTUREDATAS>
                 <RACKS>
                     <RACK EXPAND_RACK="1" TYPE="8">
-                        <EFFECT TYPE="5" ID="13" DURATION="3400">
+                        <EFFECT TYPE="5" ID="13" DURATION="7800">
                             <PARAMS NB="2">
                                 <PARAM TYPE="5" ID="1">
                                     <POINTS NB="3">
                                         <POINT X="0" Y="1"/>
-                                        <POINT X="0.528527" Y="0"/>
+                                        <POINT X="0.253937" Y="0"/>
                                         <POINT X="1" Y="0"/>
                                     </POINTS>
                                 </PARAM>
-                                <PARAM TYPE="1" ID="2" VAL="0.072"/>
+                                <PARAM TYPE="1" ID="2" VAL="0.036"/>
                             </PARAMS>
                         </EFFECT>
                         <PRESETS>
@@ -1710,16 +1710,16 @@
                 </FIXTUREDATAS>
                 <RACKS>
                     <RACK EXPAND_RACK="1" TYPE="8">
-                        <EFFECT TYPE="5" ID="13" DURATION="3400">
+                        <EFFECT TYPE="5" ID="13" DURATION="6800">
                             <PARAMS NB="2">
                                 <PARAM TYPE="5" ID="1">
                                     <POINTS NB="3">
                                         <POINT X="0" Y="1"/>
-                                        <POINT X="0.524429" Y="0"/>
+                                        <POINT X="0.262134" Y="0"/>
                                         <POINT X="1" Y="0"/>
                                     </POINTS>
                                 </PARAM>
-                                <PARAM TYPE="1" ID="2" VAL="0.072"/>
+                                <PARAM TYPE="1" ID="2" VAL="0.036"/>
                             </PARAMS>
                         </EFFECT>
                         <PRESETS>
@@ -1776,16 +1776,16 @@
                 </FIXTUREDATAS>
                 <RACKS>
                     <RACK EXPAND_RACK="1" TYPE="8">
-                        <EFFECT TYPE="5" ID="13" DURATION="3400">
+                        <EFFECT TYPE="5" ID="13" DURATION="6800">
                             <PARAMS NB="2">
                                 <PARAM TYPE="5" ID="1">
                                     <POINTS NB="3">
                                         <POINT X="0" Y="1"/>
-                                        <POINT X="0.518281" Y="0"/>
+                                        <POINT X="0.258036" Y="0"/>
                                         <POINT X="1" Y="0"/>
                                     </POINTS>
                                 </PARAM>
-                                <PARAM TYPE="1" ID="2" VAL="0.072"/>
+                                <PARAM TYPE="1" ID="2" VAL="0.036"/>
                             </PARAMS>
                         </EFFECT>
                         <PRESETS>
@@ -23653,30 +23653,106 @@
             <SCENE DASUID="42021cde-1821-4358-aee6-8eba56c9c8f7" NAME="Circuit Animation" COLOR="#ff077cc1" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.5" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
                 <FIXTUREDATAS NB="0"/>
                 <RACKS>
-                    <RACK TYPE="1" DURATION="175" DISPLAY_MODE="0" GRID_BPM="120" GRID_OFFSET="0">
+                    <RACK TYPE="1" DURATION="345" DISPLAY_MODE="0" GRID_BPM="120" GRID_OFFSET="0">
                         <TIMELINES>
                             <TIMELINE DASUID="12def017-783b-490a-99ad-eecb91af2b19" NAME="0" INDEX="0" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
-                                    <BLOCK TYPE="1" DASUID="4eb3590b-b4ec-41c4-8f36-90a5c28568ba" NAME="Up A" START="0" END="3400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="e9544c69-61c3-44cd-bf44-4b5292916ef2">
+                                    <BLOCK TYPE="1" DASUID="d3565236-55f1-40be-9d93-c5e573ac604a" NAME="Up A" START="0" END="3200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="e9544c69-61c3-44cd-bf44-4b5292916ef2">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="a57d08b4-4260-492c-8eee-0997d85086a0" NAME="B1" START="3200" END="4600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="652a6adc-f26d-40f2-a48a-1c151ee329df">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="b6cffdd4-c253-44f3-98b5-f37106bab3f3" NAME="E1" START="4800" END="6200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="b487a467-9b93-4ae8-b112-73a6f49588d6">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
                             <TIMELINE DASUID="09ece714-6f3d-4e36-b0fc-b6be54b34df2" NAME="1" INDEX="1" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
-                                    <BLOCK TYPE="1" DASUID="4b77a0af-6be9-4e76-9a2f-93909fc5780c" NAME="Up B" START="0" END="7000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="d7d5f294-a72a-4238-806b-53bf5f0dc700">
+                                    <BLOCK TYPE="1" DASUID="994f14ed-a828-4870-bc57-bc263b4e3535" NAME="A2" START="2000" END="3400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="54a86c39-032a-4683-a76f-983836d75ec3">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="01ac5dce-e322-41b0-9256-1cd90aa14cda" NAME="C1" START="3600" END="5000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="fe0f2b58-73c2-4ce6-af84-8ac6f7b62205">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="7aca0a47-083a-4e70-aaad-12bc09b42d8d" NAME="EF1" START="5200" END="6600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="4c915383-3385-4243-a748-075daab8e102">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
                             <TIMELINE DASUID="57574675-9e08-46cd-920c-dea8d0e21033" NAME="2" INDEX="2" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
-                                    <BLOCK TYPE="1" DASUID="54fd0362-1fd6-45f5-a169-84f4326c0bf1" NAME="A1" START="3400" END="5000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="52f5ea4e-4382-4fe1-9592-6fa37524043c">
+                                    <BLOCK TYPE="1" DASUID="0df55376-a447-406a-8854-cd94415d9faa" NAME="A1" START="2400" END="3800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="52f5ea4e-4382-4fe1-9592-6fa37524043c">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="9ae130f2-2dc8-446c-a807-6e4ac973e85d" NAME="CD1" START="4000" END="5400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="c4fc4118-1761-4d5d-a132-2b515e65e268">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="985557b3-a659-46c2-88e9-0e3bcc231d45" NAME="F1" START="5600" END="7000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="ca3bba34-9773-4bd2-8377-123df941e26f">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
                             <TIMELINE DASUID="4fd5f041-6a8b-42ce-a8f0-d2bb2e8fc4e9" NAME="3" INDEX="3" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="b4aaa43c-853e-45d1-b64f-431f5a8d6459" NAME="AB1" START="2800" END="4200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="8b547198-ca97-48bb-bdf0-9ceeaec1fb01">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="b3b5ab0f-362a-4de5-bc12-b11eb5b1114d" NAME="D1" START="4400" END="5800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="6c74e46f-3fda-4775-863f-f4c50dd5256b">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="b56112c3-663c-4587-bf8d-9dfe2ebfda18" NAME="4" INDEX="4" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="a89ccac0-255a-4775-9108-66a5be14ef54" NAME="F2" START="800" END="2200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="16cd0d08-d0da-4d8c-b777-d132a9c6d756">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="923b400a-0dc6-4398-8748-3cd75f90d0c5" NAME="Down D" START="2400" END="5800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="d9ecae58-b399-4513-9ddc-3351df06e03b">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="894c7b95-1a08-4bf9-bcb5-1c3d45731f5b" NAME="5" INDEX="5" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="7189c191-36dd-41f7-af62-42a179c32c63" NAME="EF2" START="1200" END="2600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="7426bf89-3427-4460-b47e-afebc755da7e">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="46edb640-a9f6-40b0-8a06-83f546a88b40" NAME="6" INDEX="6" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="4988fda9-9b05-46cb-8e66-340b9ce7c423" NAME="E2" START="1600" END="3000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="ebb4a0d5-409a-475a-9e72-315241bfabe9">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="2d6b9373-ef2c-47c0-b379-8f477d582624" NAME="7" INDEX="7" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="628598e8-2096-404c-a0c1-c165cb28e5fe" NAME="D2" START="2000" END="3400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="88c59f63-adf3-4d0d-8162-94eacf6aafd8">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="fbe2e656-4b7b-4c43-a2e3-e68eac22036c" NAME="8" INDEX="8" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS/>
+                            </TIMELINE>
+                            <TIMELINE DASUID="aa0b68b4-6aea-4b0e-b323-b4c6b69c1e00" NAME="9" INDEX="9" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="193c4f79-23b1-4638-8813-46a227045ae0" NAME="Down A" START="7000" END="10400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="d1eb5750-70b9-42a8-97c3-c1880e1a9c7f">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="995709e9-09d9-40f9-9e1e-e46881064fe9" NAME="10" INDEX="10" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="92f817ca-9a25-4383-baff-14700905d64f" NAME="Down D" START="7000" END="13800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="d9ecae58-b399-4513-9ddc-3351df06e03b">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="81826d19-f210-4494-a027-88e80dab2b7e" NAME="11" INDEX="11" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS/>
                             </TIMELINE>
                         </TIMELINES>
@@ -23697,7 +23773,7 @@
             </SCENE>
         </BANK>
         <DAS_SELECTIONS SELECTED_LIVE_BANK="8">
-            <SELECTED_LIVE_SCENES DASUID="bdcc2098-ed06-4024-b7a8-7e113d24fc26"/>
+            <SELECTED_LIVE_SCENES DASUID="bc276671-4d7b-4026-8377-2a87ecd63f0e"/>
         </DAS_SELECTIONS>
     </SCENES>
     <SHORTCUTS>
