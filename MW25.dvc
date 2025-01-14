@@ -23653,7 +23653,7 @@
             <SCENE DASUID="42021cde-1821-4358-aee6-8eba56c9c8f7" NAME="Circuit Animation" COLOR="#ff077cc1" ENABLE="1" VISIBLE="1" LOOP_MODE="0" LOOP="0" PLAY_DIRECTION="1" PLAY_MODE="0" FLASH="0" BOUNCE_MODE="0" PLAY_TRIGGER="0" PLAY_DIVISION="8" DIMMER="1" D_FEATURE="1" SPEED="0.4" PHASE="0" SIZE="1" AUTO_RELEASE_END="1" JUMP_MODE="-1" RELEASE_MODE="2" RELEASE_PROTECT_MODE="0" FADE_IN="0" FADE_OUT="0" ATTRIBUTEVALUE_MODE="0" LTPPRIORITY="2" PAUSE="0" SAIMAGEPATH="">
                 <FIXTUREDATAS NB="0"/>
                 <RACKS>
-                    <RACK TYPE="1" DURATION="765" DISPLAY_MODE="0" GRID_BPM="120" GRID_OFFSET="0">
+                    <RACK TYPE="1" DURATION="945" DISPLAY_MODE="0" GRID_BPM="120" GRID_OFFSET="0">
                         <TIMELINES>
                             <TIMELINE DASUID="12def017-783b-490a-99ad-eecb91af2b19" NAME="0" INDEX="0" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
@@ -24108,10 +24108,17 @@
                                     <BLOCK TYPE="1" DASUID="c1c1808e-7ac2-4c62-a5e7-c20f60cdc704" NAME="Down B" START="20800" END="24000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="ac308698-402a-4935-b3ce-530e3ffaeb7c">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="dc4651f3-3b52-4c3b-b5a3-877b63f234a1" NAME="E2" START="29600" END="31000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="ebb4a0d5-409a-475a-9e72-315241bfabe9">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
                             <TIMELINE DASUID="794a369a-7aa1-431f-bd6c-d03096ab2a4e" NAME="37" INDEX="37" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
-                                <BLOCKS/>
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="e7f2fd46-98a4-4d59-a99a-aa40a93b2f3e" NAME="Down E" START="30000" END="33200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="b844c5cb-65c9-4683-bcf7-74104fea5e07">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
                             </TIMELINE>
                             <TIMELINE DASUID="02c2eb14-3409-406e-8080-7a6b0b4b5c73" NAME="38" INDEX="38" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS>
@@ -24248,6 +24255,9 @@
                                     <BLOCK TYPE="1" DASUID="e762079f-c62f-4f4d-bed0-0009cf691344" NAME="Up F" START="26000" END="29200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="971c583e-802d-4769-937d-078e86384a48">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="10d3044e-1a33-49c5-8623-c21dc6c18938" NAME="D2" START="29200" END="30600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="88c59f63-adf3-4d0d-8162-94eacf6aafd8">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
                             <TIMELINE DASUID="9c8087b9-203c-4c13-8ff4-006810f63e44" NAME="55" INDEX="55" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
@@ -24255,15 +24265,122 @@
                                     <BLOCK TYPE="1" DASUID="7cc44210-eb11-4b1d-b0ac-ab7535b19584" NAME="F2" START="28000" END="29400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="16cd0d08-d0da-4d8c-b777-d132a9c6d756">
                                         <DASTLSUBLINES DASTLNB="0"/>
                                     </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="b8d00e28-2a76-454d-a350-ff5345eb9501" NAME="CD2" START="29600" END="31000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="aa55f350-ed28-4063-92f6-89f9d4518d6a">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
                                 </BLOCKS>
                             </TIMELINE>
                             <TIMELINE DASUID="e578f9f9-36dd-4ba8-be17-e7ae8aa0f7bf" NAME="56" INDEX="56" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="289cb3c6-443d-4034-8f15-9b02472a5cba" NAME="EF2" START="28400" END="29800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="7426bf89-3427-4460-b47e-afebc755da7e">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="4c6f6701-dcad-4a78-8019-9b3c59ef73ab" NAME="C2" START="30000" END="31400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="36dc88ce-502f-49e4-a79f-bb8edb79c825">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="4e9045d1-0cf4-40a5-bea7-5ee9dbd1012b" NAME="57" INDEX="57" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="69ba1709-3b8f-48ea-a7d4-ca0a28d5b219" NAME="E2" START="28800" END="30200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="ebb4a0d5-409a-475a-9e72-315241bfabe9">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="ea5e3b5b-a138-4be9-8418-c0d6b0dedecf" NAME="Down C" START="30400" END="37800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="bc276671-4d7b-4026-8377-2a87ecd63f0e">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="dcd74969-f5fa-4fe7-91f7-21163786e243" NAME="58" INDEX="58" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS/>
                             </TIMELINE>
-                            <TIMELINE DASUID="2622a9bf-5ee7-44c1-9bee-eee7ea8ab888" NAME="57" INDEX="57" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="c4767ecd-cce5-44ed-84e0-0c7ef33a1454" NAME="59" INDEX="59" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="58298c54-37b4-408f-8eec-f7b512233e7e" NAME="Up B" START="28400" END="31800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="d7d5f294-a72a-4238-806b-53bf5f0dc700">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="2622a9bf-5ee7-44c1-9bee-eee7ea8ab888" NAME="60" INDEX="60" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="62802808-1e2e-4ec7-8f8d-81b4464664ca" NAME="B2" START="30400" END="31800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="c600816e-ab5c-43ab-ad19-3972658ea916">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="8f056730-2394-4422-8e2c-7eea3bfc5233" NAME="A2" START="32000" END="33600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="54a86c39-032a-4683-a76f-983836d75ec3">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="6a1747db-a5e3-40e1-a725-82702fba07d0" NAME="61" INDEX="61" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="586d9537-8628-4b5e-a76f-049bda57b787" NAME="B1" START="30800" END="32200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="652a6adc-f26d-40f2-a48a-1c151ee329df">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="5b79cb34-b406-4d36-adde-75275c456a3b" NAME="Down A" START="32400" END="35600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="d1eb5750-70b9-42a8-97c3-c1880e1a9c7f">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="448818a5-583d-448f-9de1-b68d5ce824b5" NAME="62" INDEX="62" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="ef2cea45-7da8-4cfa-884f-dcc94dc2206e" NAME="AB1" START="31200" END="32600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="8b547198-ca97-48bb-bdf0-9ceeaec1fb01">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="f7d9e090-0744-4454-80d5-c9afce6a6687" NAME="63" INDEX="63" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="b080f8c7-44e7-48c7-8e58-7ffcf76a3deb" NAME="A1" START="31600" END="33000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="52f5ea4e-4382-4fe1-9592-6fa37524043c">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="c634fa2c-e712-443e-b77f-c382a6237e3a" NAME="64" INDEX="64" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS/>
                             </TIMELINE>
-                            <TIMELINE DASUID="448818a5-583d-448f-9de1-b68d5ce824b5" NAME="58" INDEX="58" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                            <TIMELINE DASUID="c67d1233-03d6-4457-aed7-8a8a4cd68f99" NAME="65" INDEX="65" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="5bddf805-246e-4593-918c-30a6978aa52a" NAME="F1" START="32000" END="33400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="ca3bba34-9773-4bd2-8377-123df941e26f">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="f2a67969-cab8-4ae4-acca-10cf18718124" NAME="CD1" START="33600" END="35000" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="c4fc4118-1761-4d5d-a132-2b515e65e268">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="0eeef1d3-c256-45fe-ae6f-c9bf4a300baa" NAME="A1" START="35200" END="36600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="52f5ea4e-4382-4fe1-9592-6fa37524043c">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="6adac877-fc38-4443-952b-961c7bd9a8ea" NAME="66" INDEX="66" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="5ab4258a-4bf9-41cc-bb74-43ea9a512235" NAME="EF1" START="32400" END="33800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="4c915383-3385-4243-a748-075daab8e102">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="6f57b16c-6bb0-4797-b41a-6c1f13527bf1" NAME="C1" START="34000" END="35400" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="fe0f2b58-73c2-4ce6-af84-8ac6f7b62205">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="fd71628e-5f2d-4373-9454-f2c6b17e8761" NAME="67" INDEX="67" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="c96bc469-5a3f-4153-b0bb-9a73d3618cb2" NAME="E1" START="32800" END="34200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="b487a467-9b93-4ae8-b112-73a6f49588d6">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="51a43fb8-760a-4361-a6af-1bd00534aca1" NAME="B1" START="34400" END="35800" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="652a6adc-f26d-40f2-a48a-1c151ee329df">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="8720e156-88c7-44ee-88f0-a4d930b63b21" NAME="68" INDEX="68" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
+                                <BLOCKS>
+                                    <BLOCK TYPE="1" DASUID="8c13de8e-dd35-480c-a7d5-64dcf69e60c7" NAME="D1" START="33200" END="34600" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="6c74e46f-3fda-4775-863f-f4c50dd5256b">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                    <BLOCK TYPE="1" DASUID="88f11e79-fbf4-4111-948a-7f306f91305e" NAME="AB1" START="34800" END="36200" POSITION="0" FADEIN="0" FADEOUT="0" SPEED="1" ALLOWLOOP="1" CONFORM_TO_TEMPO="1" SCENEUUID="8b547198-ca97-48bb-bdf0-9ceeaec1fb01">
+                                        <DASTLSUBLINES DASTLNB="0"/>
+                                    </BLOCK>
+                                </BLOCKS>
+                            </TIMELINE>
+                            <TIMELINE DASUID="7461b141-38b7-4b6b-b46c-f7ac59c55074" NAME="69" INDEX="69" DASTLLOCKED="0" DASTLMUTED="0" DASTLFOLDED="1">
                                 <BLOCKS/>
                             </TIMELINE>
                         </TIMELINES>
