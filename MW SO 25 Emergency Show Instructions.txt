@@ -1,0 +1,24 @@
+===OFF STAGE===
+Install DasLight 5
+Open 'MW / SO 25 Emergency Shows.dvc'
+Connect the Daslight box to the laptop with a usb cable
+Click 'Okay' for both prompts
+Click on 'All Off' just underneath the group name that is performing
+Make sure the word 'LIVE' is selected. This button is in the top left corner of the bottom right box, next to the button for 'EDIT'. It will be yellow when properly selected
+
+===ON STAGE, PRE SHOW===
+LEAVE POWER STRIP OFF UNTIL ALL 3 DMX CABLES ARE PLUGGED INTO THE DASLIGHT BOX
+The DMX cables can go into any of the ports, except the one on the right (furthest from the usb c cable
+Turn on power strip
+Hit the 'Z' key. This will advance the show to the next scene, which is 'Light Check' in this case
+Check that all lights are lit up. The robots may still be getting started, but should eventually be still and lit
+Hit 'Z' again. This will go to another 'All Off Scene'. You are ready to go!
+
+===ON STAGE, DURING SHOW===
+At the start of each song (when the band starts playing), hit the 'Z' key to start the next scene
+Each scene is named with the title of the song that it corresponds to (i.e. when 'Electricity' is being performed, the scene called 'Electricity' should be lit up.
+When the band stops playing the final song (when the kids have exited the stage), hit 'Z' one last time to turn the lights off.
+
+===ON STAGE, POST SHOW===
+Turn off the power strip
+Unplug all power and dmx cables
